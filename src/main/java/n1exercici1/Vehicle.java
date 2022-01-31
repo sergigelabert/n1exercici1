@@ -2,13 +2,20 @@
  que es invocat pel main() (aquest mètode pot estar en la mateixa classe o en una classe apart) .
  Demostra la seqüència d'execució dels mètodes de la classe (no entenc què vol dir això).
  */
+package n1exercici1;
+
 public class Vehicle {
-    public static void iniciar(){
+    Vehicle Vehicle1 = new Vehicle();
+
+    public static void iniciar() {
 
     }
+
     public static void main(String[] args) {
         iniciar();
-        int iniciar = 0;
+        int iniciar = 10;
+
+
         System.out.println(iniciar);
     }
 }
