@@ -11,11 +11,12 @@ public class Vehicle {
 
     }
 
+
     public static void main(String[] args) {
         iniciar();
         int iniciar = 10;
 
 
-        System.out.println(iniciar);
+        System.out.println("la velocitat del vehicle és: " + iniciar);
     }
 }
