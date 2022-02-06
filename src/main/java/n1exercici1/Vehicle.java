@@ -5,11 +5,13 @@
 package n1exercici1;
 
 public class Vehicle {
+
     Vehicle Vehicle1 = new Vehicle();
 
-    public static void iniciar() {
+    static void iniciar() {
 
     }
+
 
 
     public static void main(String[] args) {
